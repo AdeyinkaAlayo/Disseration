@@ -1,6 +1,6 @@
 # Dissertation
 Installation Steps 
-1. Download/Extract the project folder ffroom Gitup to the system or Clone the Repository
+1. Download/Extract the project folder ffroom Gitup to the system or Clone the Repository  ( git@github.com:AdeyinkaAlayo/Disseration.git)
 2. Open the Project on any IDE - Eclipse 
 3. Install Maven from Eclipse Marketplace or open project as Maven
 4. Install Testng on Elipse Market Place 

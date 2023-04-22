@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dissertation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="NewEmployer.ChangeEmployerLogo">
+        <methods>
+          <include name="testChangeEmployerLogo"/>
+          <include name="setUp1"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- NewEmployer.ChangeEmployerLogo -->
+      <class name="students.StudentsApplicationsPage">
+        <methods>
+          <include name="testStudentsApplicationsPage"/>
+          <include name="screenShot"/>
+          <include name="setUp1"/>
+        </methods>
+      </class> <!-- students.StudentsApplicationsPage -->
+      <class name="university.UniViewStudentProfie">
+        <methods>
+          <include name="setUp1"/>
+          <include name="testUniViewStudentProfie"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- university.UniViewStudentProfie -->
+      <class name="students.TermsandServicePage">
+        <methods>
+          <include name="screenShot"/>
+          <include name="testTermsandServicePage"/>
+          <include name="setUp1"/>
+        </methods>
+      </class> <!-- students.TermsandServicePage -->
+      <class name="university.UpdateUniAboutUsProfile">
+        <methods>
+          <include name="testUpdateUniAboutUsProfile"/>
+          <include name="setUp1"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- university.UpdateUniAboutUsProfile -->
+      <class name="students.StudentsMyProfile">
+        <methods>
+          <include name="screenShot"/>
+          <include name="testLoginElements"/>
+          <include name="setUp1"/>
+        </methods>
+      </class> <!-- students.StudentsMyProfile -->
+      <class name="university.ChangeUniversityLogo">
+        <methods>
+          <include name="setUp1"/>
+          <include name="testChangeUniversityLogo"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- university.ChangeUniversityLogo -->
+      <class name="university.UpdateUniSocialMediaProfile">
+        <methods>
+          <include name="setUp1"/>
+          <include name="screenShot"/>
+          <include name="testUpdateUniSocialMediaProfile"/>
+        </methods>
+      </class> <!-- university.UpdateUniSocialMediaProfile -->
+      <class name="NewEmployer.EmpViewVerifiedStudents">
+        <methods>
+          <include name="setUp1"/>
+          <include name="testEMPViewVerifiedStudents"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- NewEmployer.EmpViewVerifiedStudents -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Dissertation] -->

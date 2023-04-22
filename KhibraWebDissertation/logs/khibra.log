@@ -1,0 +1,566 @@
+INFO  - 2023-03-07 16:30:01.907; utils.log; START=StudentsCreateVideoCV--------------------------------------------------------------
+INFO  - 2023-03-07 16:30:06.214; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 16:30:08.896; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-07 16:30:08.898; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 16:30:13.565; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-07 16:30:15.580; utils.log; Login Successful
+INFO  - 2023-03-07 16:30:19.779; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-07 16:30:19.851; utils.log; My CV Selected
+INFO  - 2023-03-07 16:30:22.969; utils.log; Add Video CV Click
+INFO  - 2023-03-07 16:30:26.057; utils.log; Video Selected 
+INFO  - 2023-03-07 16:30:33.151; utils.log; Save BUTTON CLICKED 
+INFO  - 2023-03-07 16:30:34.167; utils.log;   Video CV is Saved successfully
+INFO  - 2023-03-07 16:30:34.167; utils.log; End TEST-------------------------- StudentChangeEmail------------------------
+INFO  - 2023-03-07 16:30:34.168; utils.log; END=PASSED
+INFO  - 2023-03-07 16:46:23.812; utils.log; START=StudentsFindRecommendations--------------------------------------------------------------
+INFO  - 2023-03-07 16:46:28.640; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 16:46:31.310; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-07 16:46:31.311; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 16:46:36.026; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-07 16:46:38.064; utils.log; Login Successful
+INFO  - 2023-03-07 16:46:40.135; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-07 16:46:42.206; utils.log; Dashboard Menu Selected
+INFO  - 2023-03-07 16:46:44.251; utils.log; 3 Recommended Jobs Displayed on the Dashboard
+INFO  - 2023-03-07 16:46:46.308; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-07 16:46:46.397; utils.log; Jobs Menu Selected
+INFO  - 2023-03-07 16:47:30.487; utils.log; END=FAILED
+INFO  - 2023-03-07 17:01:15.435; utils.log; START=StudentsFindRecommendations--------------------------------------------------------------
+INFO  - 2023-03-07 17:01:20.309; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:01:23.621; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-07 17:01:23.622; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 17:01:28.303; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-07 17:01:30.354; utils.log; Login Successful
+INFO  - 2023-03-07 17:01:32.470; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-07 17:01:34.541; utils.log; Dashboard Menu Selected
+INFO  - 2023-03-07 17:01:36.605; utils.log; 3 Recommended Jobs Displayed on the Dashboard
+INFO  - 2023-03-07 17:01:36.605; utils.log; End TEST-------------------------- StudentsFindRecommendations------------------------
+INFO  - 2023-03-07 17:01:36.605; utils.log; END=PASSED
+INFO  - 2023-03-07 17:03:48.550; utils.log; START=StudentsSaveJob--------------------------------------------------------------
+INFO  - 2023-03-07 17:04:24.768; utils.log; START=EmpAddNewJob--------------------------------------------------------------
+INFO  - 2023-03-07 17:04:25.498; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:04:29.409; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:04:31.235; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 17:04:37.700; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-07 17:04:39.939; utils.log; Employer Login Successful
+INFO  - 2023-03-07 17:04:44.122; utils.log; Dropdown  Clicked
+INFO  - 2023-03-07 17:04:46.210; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-07 17:04:48.940; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-07 17:05:15.070; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-07 17:05:59.994; utils.log; END=FAILED
+INFO  - 2023-03-07 17:10:25.952; utils.log; START=EmpAddNewJob--------------------------------------------------------------
+INFO  - 2023-03-07 17:10:26.651; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:10:30.700; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:10:32.796; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 17:10:39.170; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-07 17:10:41.284; utils.log; Employer Login Successful
+INFO  - 2023-03-07 17:10:45.565; utils.log; Dropdown  Clicked
+INFO  - 2023-03-07 17:10:47.670; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-07 17:10:50.520; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-07 17:11:16.640; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-07 17:11:36.835; utils.log; Page 2 job details completed and post job button is clicked 
+INFO  - 2023-03-07 17:11:38.892; utils.log; Job Was Created Succesfully and displayed
+INFO  - 2023-03-07 17:11:38.893; utils.log; End TEST-------------------------- EmpAddNewJob------------------------
+INFO  - 2023-03-07 17:11:38.894; utils.log; END=PASSED
+INFO  - 2023-03-07 17:15:12.734; utils.log; START=EmpAddNewJob--------------------------------------------------------------
+INFO  - 2023-03-07 17:15:13.537; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:15:17.009; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-07 17:15:19.413; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-07 17:15:25.999; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-07 17:15:28.250; utils.log; Employer Login Successful
+INFO  - 2023-03-07 17:15:32.455; utils.log; Dropdown  Clicked
+INFO  - 2023-03-07 17:15:34.523; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-07 17:15:37.150; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-07 17:16:03.125; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-07 17:16:23.738; utils.log; Page 2 job details completed and post job button is clicked 
+INFO  - 2023-03-07 17:16:25.824; utils.log; Job Was Created Succesfully and displayed
+INFO  - 2023-03-07 17:16:25.825; utils.log; End TEST-------------------------- EmpAddNewJob------------------------
+INFO  - 2023-03-07 17:16:25.825; utils.log; END=PASSED
+INFO  - 2023-03-08 09:31:40.460; utils.log; START=EmpAddNewJob--------------------------------------------------------------
+INFO  - 2023-03-08 09:31:41.619; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-08 09:31:47.192; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-08 09:31:49.168; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-08 09:31:55.443; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-08 09:31:57.491; utils.log; Employer Login Successful
+INFO  - 2023-03-08 09:32:01.844; utils.log; Dropdown  Clicked
+INFO  - 2023-03-08 09:32:03.923; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-08 09:32:06.689; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-08 09:32:32.551; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-08 09:32:52.247; utils.log; Page 2 job details completed and post job button is clicked 
+INFO  - 2023-03-08 09:32:54.292; utils.log; Job Was Created Succesfully and displayed
+INFO  - 2023-03-08 09:32:54.292; utils.log; End TEST-------------------------- EmpAddNewJob------------------------
+INFO  - 2023-03-08 09:32:54.293; utils.log; END=PASSED
+INFO  - 2023-03-09 13:15:04.989; utils.log; START=AddEmployerLocation--------------------------------------------------------------
+INFO  - 2023-03-09 13:15:05.721; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:15:10.698; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:15:12.751; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:15:18.984; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:15:21.009; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:15:23.833; utils.log; Employer Profile Menu Clicked
+INFO  - 2023-03-09 13:15:27.923; utils.log; Location Menu Selected
+INFO  - 2023-03-09 13:15:30.010; utils.log; Add New location  Clicked
+INFO  - 2023-03-09 13:15:39.428; utils.log; Title Address, City , Country and Address Entered
+INFO  - 2023-03-09 13:15:39.499; utils.log; Add Button Clicked
+INFO  - 2023-03-09 13:15:41.572; utils.log; Location Was Created Succesfully 
+INFO  - 2023-03-09 13:15:41.573; utils.log; End TEST-------------------------- EMPAddEmployerLocation------------------------
+INFO  - 2023-03-09 13:15:41.575; utils.log; END=PASSED
+INFO  - 2023-03-09 13:15:43.041; utils.log; START=EmpAddJobMultiLocations--------------------------------------------------------------
+INFO  - 2023-03-09 13:15:43.131; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:15:45.124; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:15:46.973; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:15:53.392; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:15:55.534; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:15:59.722; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:16:01.800; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:16:05.043; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-09 13:16:15.624; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-09 13:16:22.343; utils.log; Page 2 job details completed and post job button is clicked with Multiple Location Selected  
+INFO  - 2023-03-09 13:16:22.358; utils.log; Multiple Jobs to be Posted Dialog Opened 
+INFO  - 2023-03-09 13:16:22.404; utils.log; Cancel Button Clicked 
+INFO  - 2023-03-09 13:16:24.626; utils.log; Post job button is clicked again
+INFO  - 2023-03-09 13:16:26.702; utils.log; Post 2 job button clicked on the Dialog 
+INFO  - 2023-03-09 13:16:28.742; utils.log; Job Was Created Succesfully and also displayed
+INFO  - 2023-03-09 13:16:28.743; utils.log; End TEST-------------------------- EmpAddJobMultiLocations------------------------
+INFO  - 2023-03-09 13:16:28.744; utils.log; END=PASSED
+INFO  - 2023-03-09 13:16:29.968; utils.log; START=EmpAddNewJob--------------------------------------------------------------
+INFO  - 2023-03-09 13:16:30.127; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:16:32.143; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:16:34.225; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:16:40.399; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:16:42.496; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:16:46.684; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:16:48.744; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:16:51.515; utils.log; Add New Job Button  Clicked
+INFO  - 2023-03-09 13:17:17.054; utils.log; Page 1 job details completed and Next button clicked 
+INFO  - 2023-03-09 13:17:36.631; utils.log; Page 2 job details completed and post job button is clicked 
+INFO  - 2023-03-09 13:17:38.671; utils.log; Job Was Created Succesfully and displayed
+INFO  - 2023-03-09 13:17:38.672; utils.log; End TEST-------------------------- EmpAddNewJob------------------------
+INFO  - 2023-03-09 13:17:38.673; utils.log; END=PASSED
+INFO  - 2023-03-09 13:17:39.875; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2023-03-09 13:17:39.963; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:17:41.789; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:17:43.597; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:17:49.925; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:17:52.039; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:17:54.859; utils.log; Employer Profile Menu Clicked
+INFO  - 2023-03-09 13:17:56.942; utils.log; Edit Employer Icon Clicked
+INFO  - 2023-03-09 13:17:57.062; utils.log; Image Selected 
+INFO  - 2023-03-09 13:18:39.110; utils.log; END=FAILED
+INFO  - 2023-03-09 13:18:40.498; utils.log; START=ChangeEmployerName--------------------------------------------------------------
+INFO  - 2023-03-09 13:18:40.599; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:18:42.392; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:18:44.207; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:18:50.554; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:18:52.619; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:18:55.368; utils.log; Employer Profile MenuClicked
+INFO  - 2023-03-09 13:18:57.459; utils.log; Edit Employer Icon Clicked
+INFO  - 2023-03-09 13:18:57.743; utils.log; Employer Name Entered
+INFO  - 2023-03-09 13:18:57.843; utils.log; Company Industry  Clicked
+INFO  - 2023-03-09 13:18:59.920; utils.log; Company Industry Option Selected
+INFO  - 2023-03-09 13:19:02.008; utils.log; Save Button  Clicked 
+INFO  - 2023-03-09 13:19:02.252; utils.log; Employer Name and Industry Saved successfully 
+INFO  - 2023-03-09 13:19:02.253; utils.log; End TEST--------------------------ChangeEmployerName------------------------
+INFO  - 2023-03-09 13:19:02.253; utils.log; END=PASSED
+INFO  - 2023-03-09 13:19:03.151; utils.log; START=CloseJob--------------------------------------------------------------
+INFO  - 2023-03-09 13:19:03.272; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:19:05.090; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:19:06.901; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:19:13.252; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:19:15.274; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:19:19.455; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:19:21.579; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:19:23.623; utils.log; Open Menu  Clicked
+INFO  - 2023-03-09 13:19:25.684; utils.log; Job to be closed Selected
+INFO  - 2023-03-09 13:19:27.742; utils.log; Close Button Clicked Clicked
+INFO  - 2023-03-09 13:19:29.804; utils.log; NoButton Clicked Clicked
+INFO  - 2023-03-09 13:19:29.851; utils.log; Close Button Clicked Clicked
+INFO  - 2023-03-09 13:19:32.006; utils.log; YesButton Clicked Clicked
+INFO  - 2023-03-09 13:19:40.435; utils.log; Survey Questions is displayed and Answered
+INFO  - 2023-03-09 13:19:40.489; utils.log; Closed Jobs  Section Clicked
+INFO  - 2023-03-09 13:19:42.549; utils.log; Job was displayed in Closed Section 
+INFO  - 2023-03-09 13:19:44.550; utils.log; End TEST-------------------------- CloseJob------------------------
+INFO  - 2023-03-09 13:19:44.551; utils.log; END=PASSED
+INFO  - 2023-03-09 13:19:45.596; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2023-03-09 13:19:45.670; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:19:47.622; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:19:49.412; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:19:55.709; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:19:57.767; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:20:00.472; utils.log; Employer Profile Menu Clicked
+INFO  - 2023-03-09 13:20:04.557; utils.log; Location Menu Selected
+INFO  - 2023-03-09 13:20:06.676; utils.log; Delete Icon Clicked 
+INFO  - 2023-03-09 13:20:06.714; utils.log; Confirm Delete Titles Validated 
+INFO  - 2023-03-09 13:20:08.800; utils.log; No Button   Clicked 
+INFO  - 2023-03-09 13:20:10.867; utils.log; Delete Icon Clicked 
+INFO  - 2023-03-09 13:20:12.916; utils.log; Yes Button   Clicked 
+INFO  - 2023-03-09 13:20:14.942; utils.log; Location Was Deleted Succesfully 
+INFO  - 2023-03-09 13:20:14.943; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
+INFO  - 2023-03-09 13:20:14.943; utils.log; END=PASSED
+INFO  - 2023-03-09 13:20:15.983; utils.log; START=EditEmployerLocation--------------------------------------------------------------
+INFO  - 2023-03-09 13:20:16.083; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:20:18.120; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:20:19.941; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:20:26.260; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:20:28.320; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:20:31.124; utils.log; Employer Profile MenuClicked
+INFO  - 2023-03-09 13:20:35.227; utils.log; Location Menu clicked
+INFO  - 2023-03-09 13:20:37.372; utils.log;   location  to be edited Clicked
+INFO  - 2023-03-09 13:20:37.713; utils.log; Update Button Clicked
+INFO  - 2023-03-09 13:20:38.791; utils.log; Location Update Success Message displayed 
+INFO  - 2023-03-09 13:20:38.896; utils.log; Location Was updated Succesfully 
+INFO  - 2023-03-09 13:20:38.897; utils.log; End TEST-------------------------- EditEmployerLocation------------------------
+INFO  - 2023-03-09 13:20:38.906; utils.log; END=PASSED
+INFO  - 2023-03-09 13:20:39.895; utils.log; START=EditJob--------------------------------------------------------------
+INFO  - 2023-03-09 13:20:39.944; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:20:41.946; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:20:43.947; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:20:50.178; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:20:52.250; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:20:56.380; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:20:58.456; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:21:00.513; utils.log; Open Menu  Clicked
+INFO  - 2023-03-09 13:21:02.574; utils.log; Jobs Selected
+INFO  - 2023-03-09 13:21:05.248; utils.log; Edit Job Button Clicked
+INFO  - 2023-03-09 13:21:09.814; utils.log; Update Job Button Clicked
+INFO  - 2023-03-09 13:21:11.850; utils.log; Job Was Updated Succesfully 
+INFO  - 2023-03-09 13:21:11.850; utils.log; End TEST-------------------------- EditJob------------------------
+INFO  - 2023-03-09 13:21:11.850; utils.log; END=PASSED
+INFO  - 2023-03-09 13:21:13.070; utils.log; START=EmpSearchClosedJobs--------------------------------------------------------------
+INFO  - 2023-03-09 13:21:13.150; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:21:14.878; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:21:16.696; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:21:23.015; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:21:25.040; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:21:29.224; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:21:31.300; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:21:33.358; utils.log; Closed Menu  Clicked
+INFO  - 2023-03-09 13:21:35.499; utils.log; Job Title entered into Search Box
+INFO  - 2023-03-09 13:21:37.571; utils.log; Search Button  Clicked
+INFO  - 2023-03-09 13:21:39.625; utils.log; Job   was displayed in Closed Section  
+INFO  - 2023-03-09 13:21:39.626; utils.log; End TEST--------------------------EmpSearchClosedJobs------------------------
+INFO  - 2023-03-09 13:21:39.626; utils.log; END=PASSED
+INFO  - 2023-03-09 13:21:40.573; utils.log; START=EmpTalentHomePage--------------------------------------------------------------
+INFO  - 2023-03-09 13:21:40.613; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:21:42.401; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:21:44.288; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:21:50.645; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:21:52.748; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:21:57.575; utils.log; Talent Menu  Clicked
+INFO  - 2023-03-09 13:21:59.641; utils.log; All Talent Page elemets validated
+INFO  - 2023-03-09 13:21:59.642; utils.log; End TEST--------------------------EmpTalentHomePage------------------------
+INFO  - 2023-03-09 13:21:59.642; utils.log; END=PASSED
+INFO  - 2023-03-09 13:22:00.697; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2023-03-09 13:22:00.769; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:22:02.424; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:22:04.179; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:22:10.528; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:22:12.563; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:22:15.264; utils.log; Employer Profile MenuClicked
+INFO  - 2023-03-09 13:22:19.331; utils.log; Overview Menu clicked
+INFO  - 2023-03-09 13:22:19.433; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2023-03-09 13:22:26.739; utils.log; All social Media accounts Updated 
+INFO  - 2023-03-09 13:22:28.806; utils.log; SaveButton Button Clicked 
+INFO  - 2023-03-09 13:22:30.823; utils.log; Links updated successfully message displayed
+INFO  - 2023-03-09 13:22:30.965; utils.log; Website, Facebook, Instagram, LinkedIn, Twitter and Youtube Updated successfully 
+INFO  - 2023-03-09 13:22:30.965; utils.log; End TEST--------------------------EmpUpdateSocialMediaProfile------------------------
+INFO  - 2023-03-09 13:22:30.965; utils.log; END=PASSED
+INFO  - 2023-03-09 13:22:32.452; utils.log; START=EMPViewVerifiedStudents--------------------------------------------------------------
+INFO  - 2023-03-09 13:22:32.535; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:22:34.326; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:22:36.156; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:22:42.570; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:22:44.771; utils.log; Employer Login Successful
+INFO  - 2023-03-09 13:22:49.623; utils.log; Talent Menu  Clicked
+INFO  - 2023-03-09 13:22:53.972; utils.log; Correct Name Entered and Search Button Clicked
+INFO  - 2023-03-09 13:22:56.013; utils.log; Search Was  Succesfull and Result Returned	 
+INFO  - 2023-03-09 13:23:36.062; utils.log; END=FAILED
+INFO  - 2023-03-09 13:23:37.350; utils.log; START=StudentAboutPage--------------------------------------------------------------
+INFO  - 2023-03-09 13:23:39.032; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:23:41.686; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:23:41.687; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:23:46.310; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:23:48.454; utils.log; Login Successful
+INFO  - 2023-03-09 13:23:50.538; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:23:50.626; utils.log; About Menu Selected
+INFO  - 2023-03-09 13:23:51.022; utils.log; Version Number Release Notes, Welcome and Coming Soon Tabs Validated
+INFO  - 2023-03-09 13:23:51.023; utils.log; End TEST-------------------------- StudentAboutPage------------------------
+INFO  - 2023-03-09 13:23:51.023; utils.log; END=PASSED
+INFO  - 2023-03-09 13:23:52.044; utils.log; START=StudentChangeEmail--------------------------------------------------------------
+INFO  - 2023-03-09 13:23:53.767; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:23:56.342; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:23:56.343; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:24:00.968; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:24:03.095; utils.log; Login Successful
+INFO  - 2023-03-09 13:24:05.274; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:24:05.319; utils.log; My Account Selected
+INFO  - 2023-03-09 13:24:05.971; utils.log; My Account Page opened 
+INFO  - 2023-03-09 13:24:08.089; utils.log; Settings Tab Clicked 
+INFO  - 2023-03-09 13:24:10.177; utils.log; Edit Email Icon Clicked 
+INFO  - 2023-03-09 13:24:10.420; utils.log; Wrong Email entered
+INFO  - 2023-03-09 13:24:10.557; utils.log; Wrong Email Error displayed 
+INFO  - 2023-03-09 13:24:10.829; utils.log; Correct email entered
+INFO  - 2023-03-09 13:24:14.927; utils.log; OK Button Clicked 
+INFO  - 2023-03-09 13:24:14.940; utils.log; Email was changed successfully and verification email text is displayed 
+INFO  - 2023-03-09 13:24:16.975; utils.log; End TEST-------------------------- StudentChangeEmail------------------------
+INFO  - 2023-03-09 13:24:16.975; utils.log; END=PASSED
+INFO  - 2023-03-09 13:24:17.932; utils.log; START=StudentChangeLanguage--------------------------------------------------------------
+INFO  - 2023-03-09 13:24:19.689; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:24:22.332; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:24:22.334; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:24:26.965; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:24:28.988; utils.log; Login Successful
+INFO  - 2023-03-09 13:24:31.101; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:24:31.171; utils.log; My Account Selected
+INFO  - 2023-03-09 13:24:33.872; utils.log; Settings Tab Clicked 
+INFO  - 2023-03-09 13:24:35.891; utils.log; Arabic Button  Validated Successfully Now
+INFO  - 2023-03-09 13:24:35.892; utils.log; Language Changed Back to English 
+INFO  - 2023-03-09 13:24:35.892; utils.log; End TEST-------------------------- StudentChangeLanguage------------------------
+INFO  - 2023-03-09 13:24:35.892; utils.log; END=PASSED
+INFO  - 2023-03-09 13:24:36.847; utils.log; START=StudentChangePassword--------------------------------------------------------------
+INFO  - 2023-03-09 13:24:38.501; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:24:41.075; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:24:41.077; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:24:45.773; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:24:47.849; utils.log; Login Successful
+INFO  - 2023-03-09 13:24:50.006; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:24:50.056; utils.log; My Account Selected
+INFO  - 2023-03-09 13:24:50.707; utils.log; My Account Page opened 
+INFO  - 2023-03-09 13:24:52.816; utils.log; Settings Tab Clicked 
+INFO  - 2023-03-09 13:24:54.930; utils.log; Short New  Password  entered
+INFO  - 2023-03-09 13:24:55.059; utils.log; Password Fields Cleared 
+INFO  - 2023-03-09 13:24:55.201; utils.log; Wrong Old Password  entered
+INFO  - 2023-03-09 13:24:55.366; utils.log; New  Password  entered
+INFO  - 2023-03-09 13:24:55.508; utils.log; New  Password  entered
+INFO  - 2023-03-09 13:24:55.603; utils.log; Save Button Clicked 
+INFO  - 2023-03-09 13:24:57.622; utils.log; Incorrect old password alert displayed 
+INFO  - 2023-03-09 13:24:59.813; utils.log; Correct Old Password  entered
+INFO  - 2023-03-09 13:24:59.955; utils.log; New  Password  entered
+INFO  - 2023-03-09 13:25:00.313; utils.log; Wrong New  Password  entered
+INFO  - 2023-03-09 13:25:00.330; utils.log; Wrong password combinations alert displayed 
+INFO  - 2023-03-09 13:25:02.435; utils.log; Correct Old Password  entered
+INFO  - 2023-03-09 13:25:02.534; utils.log; New  Password  entered
+INFO  - 2023-03-09 13:25:02.657; utils.log; correct New  Password  entered
+INFO  - 2023-03-09 13:25:02.700; utils.log; Save Button Clicked 
+INFO  - 2023-03-09 13:25:05.725; utils.log; Password Change successful Message displayed  
+INFO  - 2023-03-09 13:25:05.725; utils.log; End TEST-------------------------- StudentChangePassword------------------------
+INFO  - 2023-03-09 13:25:05.726; utils.log; END=PASSED
+INFO  - 2023-03-09 13:25:06.817; utils.log; START=StudentChangePersonalInfo--------------------------------------------------------------
+INFO  - 2023-03-09 13:25:08.542; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:25:11.171; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:25:11.171; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:25:15.843; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:25:17.938; utils.log; Login Successful
+INFO  - 2023-03-09 13:25:20.096; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:25:20.147; utils.log; My Account Selected
+INFO  - 2023-03-09 13:25:23.415; utils.log; personal Details changed and updated successfully
+INFO  - 2023-03-09 13:25:23.417; utils.log; End TEST-------------------------- StudentChangePersonalInfo------------------------
+INFO  - 2023-03-09 13:25:23.418; utils.log; END=PASSED
+INFO  - 2023-03-09 13:25:24.313; utils.log; START=StudentMyAccount--------------------------------------------------------------
+INFO  - 2023-03-09 13:25:26.047; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:25:28.641; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:25:28.641; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:25:33.280; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:25:35.290; utils.log; Login Successful
+INFO  - 2023-03-09 13:25:37.379; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:25:37.426; utils.log; My Account Selected
+INFO  - 2023-03-09 13:25:42.482; utils.log; All My Account Fields Validated
+INFO  - 2023-03-09 13:25:42.482; utils.log; End TEST-------------------------- StudentMyAccount------------------------
+INFO  - 2023-03-09 13:25:42.482; utils.log; END=PASSED
+INFO  - 2023-03-09 13:25:43.524; utils.log; START=StudentsApplicationsPage--------------------------------------------------------------
+INFO  - 2023-03-09 13:25:45.218; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:25:47.859; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:25:47.859; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:25:52.427; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:25:54.468; utils.log; Login Successful
+INFO  - 2023-03-09 13:25:56.547; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:25:56.623; utils.log; Applications Menu Selected
+INFO  - 2023-03-09 13:26:38.697; utils.log; END=FAILED
+INFO  - 2023-03-09 13:26:40.096; utils.log; START=StudentsLogout--------------------------------------------------------------
+INFO  - 2023-03-09 13:26:41.915; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:26:44.565; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:26:44.565; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:26:49.271; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:27:15.697; utils.log; Login Successful
+INFO  - 2023-03-09 13:27:19.815; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:27:19.872; utils.log; Logout Menu Selected
+INFO  - 2023-03-09 13:27:21.892; utils.log; User is Navigated to the Login Screen
+INFO  - 2023-03-09 13:27:21.892; utils.log; End TEST--------------------------StudentsLogout------------------------
+INFO  - 2023-03-09 13:27:21.892; utils.log; END=PASSED
+INFO  - 2023-03-09 13:27:22.980; utils.log; START=StudentsMyProfile--------------------------------------------------------------
+INFO  - 2023-03-09 13:27:24.777; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:27:27.453; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:27:27.454; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:27:32.198; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:27:34.217; utils.log; Login Successful
+INFO  - 2023-03-09 13:27:36.337; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:28:16.378; utils.log; END=FAILED
+INFO  - 2023-03-09 13:28:17.647; utils.log; START=TermsandServicePage--------------------------------------------------------------
+INFO  - 2023-03-09 13:28:19.535; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:28:22.137; utils.log; Welcome to Alpha Machine Text Validated
+INFO  - 2023-03-09 13:28:22.137; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:28:26.741; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2023-03-09 13:35:39.973; utils.log; START=AddNewEvent--------------------------------------------------------------
+INFO  - 2023-03-09 13:35:42.643; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:35:44.781; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:35:50.306; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:35:54.328; utils.log; University Login Successful
+INFO  - 2023-03-09 13:35:58.469; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:35:58.534; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2023-03-09 13:36:01.325; utils.log; Add Event  Button Clicked 
+INFO  - 2023-03-09 13:36:03.999; utils.log; CancButton Button Clicked 
+INFO  - 2023-03-09 13:36:06.630; utils.log; AddNewEventButton	 Button Clicked 
+INFO  - 2023-03-09 13:36:08.772; utils.log; All Event Fields Validated
+INFO  - 2023-03-09 13:36:15.769; utils.log; All Event Fields Entered
+INFO  - 2023-03-09 13:36:20.861; utils.log; Create Event Button Clicked
+INFO  - 2023-03-09 13:36:20.873; utils.log; Add Event Page is opened 
+INFO  - 2023-03-09 13:36:22.924; utils.log; Event Was Created Succesfully 
+INFO  - 2023-03-09 13:36:22.924; utils.log; End TEST-------------------------- AddNewEvent------------------------
+INFO  - 2023-03-09 13:36:22.924; utils.log; END=PASSED
+INFO  - 2023-03-09 13:36:23.994; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2023-03-09 13:36:25.853; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:36:27.698; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:36:32.983; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:36:37.000; utils.log; University Login Successful
+INFO  - 2023-03-09 13:36:41.119; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:36:41.186; utils.log; University Profile Menu   Clicked 
+INFO  - 2023-03-09 13:36:43.240; utils.log; Overview Tab Clicked 
+INFO  - 2023-03-09 13:36:43.337; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2023-03-09 13:36:43.510; utils.log; Image Selected Successfully 
+INFO  - 2023-03-09 13:37:25.562; utils.log; END=FAILED
+INFO  - 2023-03-09 13:37:27.157; utils.log; START=ChangeUniversityName--------------------------------------------------------------
+INFO  - 2023-03-09 13:37:29.063; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:37:31.102; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:37:36.394; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:37:40.414; utils.log; University Login Successful
+INFO  - 2023-03-09 13:37:44.575; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:37:44.695; utils.log; University Profile Menu   Clicked 
+INFO  - 2023-03-09 13:37:46.756; utils.log; Overview Tab Clicked 
+INFO  - 2023-03-09 13:37:46.827; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2023-03-09 13:37:47.276; utils.log; University name Entered 
+INFO  - 2023-03-09 13:37:49.368; utils.log; Save Button  Clicked 
+INFO  - 2023-03-09 13:37:51.387; utils.log; Profile Saved successfully 
+INFO  - 2023-03-09 13:37:51.415; utils.log; End TEST-------------------------- ChangeUniversityName------------------------
+INFO  - 2023-03-09 13:37:51.415; utils.log; END=PASSED
+INFO  - 2023-03-09 13:37:52.309; utils.log; START=EditEvent--------------------------------------------------------------
+INFO  - 2023-03-09 13:37:54.118; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:37:55.973; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:38:01.417; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:38:05.437; utils.log; University Login Successful
+INFO  - 2023-03-09 13:38:09.553; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:38:09.629; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2023-03-09 13:38:11.692; utils.log; Scheduled Event Tab Selected 
+INFO  - 2023-03-09 13:38:15.751; utils.log;   Event to be edited  Selected 
+INFO  - 2023-03-09 13:38:18.534; utils.log;   Edit Event button clicked 
+INFO  - 2023-03-09 13:38:18.896; utils.log; Title Updated 
+INFO  - 2023-03-09 13:38:19.633; utils.log; Message Updated 
+INFO  - 2023-03-09 13:38:19.703; utils.log; Update Event Button Clicked 
+INFO  - 2023-03-09 13:38:21.752; utils.log; Event Was updated Succesfully 
+INFO  - 2023-03-09 13:38:21.752; utils.log; End TEST-------------------------- EditEvent------------------------
+INFO  - 2023-03-09 13:38:21.753; utils.log; END=PASSED
+INFO  - 2023-03-09 13:38:22.825; utils.log; START=EventHomepageElements--------------------------------------------------------------
+INFO  - 2023-03-09 13:38:24.595; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:38:26.416; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:38:31.771; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:38:35.805; utils.log; University Login Successful
+INFO  - 2023-03-09 13:38:39.919; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:38:39.985; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2023-03-09 13:38:42.031; utils.log; Scheduled Event Tab Selected 
+INFO  - 2023-03-09 13:38:44.064; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2023-03-09 13:38:44.168; utils.log; Past EventTab Selected 
+INFO  - 2023-03-09 13:38:46.183; utils.log; Past Event Dates, Title and Time Validated 
+INFO  - 2023-03-09 13:38:46.183; utils.log; End TEST-------------------------- EventHomepageElements------------------------
+INFO  - 2023-03-09 13:38:46.183; utils.log; END=PASSED
+INFO  - 2023-03-09 13:38:47.193; utils.log; START=UniSearchStudentByName--------------------------------------------------------------
+INFO  - 2023-03-09 13:38:48.938; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:38:50.791; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:38:56.155; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:39:00.188; utils.log; University Login Successful
+INFO  - 2023-03-09 13:39:02.227; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:39:04.965; utils.log; Students Menu   Clicked 
+INFO  - 2023-03-09 13:39:07.282; utils.log; Wron Student Name Entered  
+INFO  - 2023-03-09 13:39:07.433; utils.log; Search Button Clicked  
+INFO  - 2023-03-09 13:39:09.476; utils.log; No Result was displayed for Wrong Name  
+INFO  - 2023-03-09 13:39:09.610; utils.log; Correct Name Entered  
+INFO  - 2023-03-09 13:39:09.725; utils.log; Search Button Clicked  
+INFO  - 2023-03-09 13:39:11.784; utils.log; Student Name Search was successful 
+INFO  - 2023-03-09 13:39:11.785; utils.log; End TEST-------------------------- UniSearchStudentByName------------------------
+INFO  - 2023-03-09 13:39:11.785; utils.log; END=PASSED
+INFO  - 2023-03-09 13:39:12.803; utils.log; START=UniversityAboutPage--------------------------------------------------------------
+INFO  - 2023-03-09 13:39:14.614; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:39:16.490; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:39:21.799; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:39:25.833; utils.log; University Login Successful
+INFO  - 2023-03-09 13:39:27.945; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:39:28.017; utils.log; About Menu Selected
+INFO  - 2023-03-09 13:39:28.481; utils.log; Version Number Release Notes, Welcome and Coming Soon Tabs Validated
+INFO  - 2023-03-09 13:39:28.482; utils.log; End TEST-------------------------- UniversityAboutPage------------------------
+INFO  - 2023-03-09 13:39:28.482; utils.log; END=PASSED
+INFO  - 2023-03-09 13:39:29.393; utils.log; START=UniversityExportJobsPDF--------------------------------------------------------------
+INFO  - 2023-03-09 13:39:31.132; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:39:33.070; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:39:38.376; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:39:42.410; utils.log; University Login Successful
+INFO  - 2023-03-09 13:39:46.520; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:39:48.600; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:39:50.653; utils.log; Export to PDF Button  Clicked
+INFO  - 2023-03-09 13:39:51.722; utils.log; Export to PDF was successful and success message displayed
+INFO  - 2023-03-09 13:39:51.723; utils.log; End TEST-------------------------- UniversityExportJobsPDF------------------------
+INFO  - 2023-03-09 13:39:51.723; utils.log; END=PASSED
+INFO  - 2023-03-09 13:39:52.715; utils.log; START=UniversitySearchJobs--------------------------------------------------------------
+INFO  - 2023-03-09 13:39:54.592; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:39:56.504; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:40:01.987; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:40:06.047; utils.log; University Login Successful
+INFO  - 2023-03-09 13:40:10.187; utils.log; Dropdown  Clicked
+INFO  - 2023-03-09 13:40:12.270; utils.log; Jobs Menu  Clicked
+INFO  - 2023-03-09 13:40:14.409; utils.log; Job Page was Opened successfully and Job ame entered in the search box
+INFO  - 2023-03-09 13:40:16.477; utils.log; Search Button Clicked
+INFO  - 2023-03-09 13:40:18.534; utils.log; Job Search was successful 
+INFO  - 2023-03-09 13:40:18.534; utils.log; End TEST-------------------------- UniversitySearchJobs------------------------
+INFO  - 2023-03-09 13:40:18.534; utils.log; END=PASSED
+INFO  - 2023-03-09 13:40:19.465; utils.log; START=UniversiyProfilePAge--------------------------------------------------------------
+INFO  - 2023-03-09 13:40:21.295; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:40:23.157; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:40:28.462; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:40:32.493; utils.log; University Login Successful
+INFO  - 2023-03-09 13:40:36.589; utils.log; Menu Dropdown Clicked
+INFO  - 2023-03-09 13:40:36.654; utils.log; Uni Profile Dropdown Selected
+INFO  - 2023-03-09 13:40:38.669; utils.log; About University Confirmed on the Page
+INFO  - 2023-03-09 13:40:38.669; utils.log; Univerity Profile Page Elements Validated Successfully
+INFO  - 2023-03-09 13:40:38.669; utils.log; End TEST-------------------------- UniversiyProfilePAge------------------------
+INFO  - 2023-03-09 13:40:38.670; utils.log; END=PASSED
+INFO  - 2023-03-09 13:40:39.675; utils.log; START=UniViewStudentProfie--------------------------------------------------------------
+INFO  - 2023-03-09 13:40:41.420; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:40:43.275; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:40:48.991; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:40:53.026; utils.log; University Login Successful
+INFO  - 2023-03-09 13:40:55.079; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:40:57.903; utils.log; Students Menu   Clicked 
+INFO  - 2023-03-09 13:41:00.073; utils.log; Correct Name Entered  
+INFO  - 2023-03-09 13:41:00.215; utils.log; Search Button Clicked  
+INFO  - 2023-03-09 13:41:02.321; utils.log; First Row of Student Selected  
+INFO  - 2023-03-09 13:41:44.346; utils.log; END=FAILED
+INFO  - 2023-03-09 13:41:46.033; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2023-03-09 13:41:47.957; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:41:49.759; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:41:55.139; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:41:59.168; utils.log; University Login Successful
+INFO  - 2023-03-09 13:42:03.302; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:42:45.372; utils.log; END=FAILED
+INFO  - 2023-03-09 13:42:46.893; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2023-03-09 13:42:48.833; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:42:50.664; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:42:56.124; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2023-03-09 13:43:00.157; utils.log; University Login Successful
+INFO  - 2023-03-09 13:43:04.293; utils.log; Menu Dropdown Available
+INFO  - 2023-03-09 13:43:44.341; utils.log; END=FAILED
+INFO  - 2023-03-09 13:43:45.876; utils.log; START=InvalidLogin--------------------------------------------------------------
+INFO  - 2023-03-09 13:43:47.767; utils.log; Chrome browser is Selected 
+INFO  - 2023-03-09 13:43:49.684; utils.log; Test Execution Started On  Alpha
+INFO  - 2023-03-09 13:43:51.802; utils.log; Login Button Clicked without entering any details  
+INFO  - 2023-03-09 13:43:55.841; utils.log; Appopraite Error message displayed  
+INFO  - 2023-03-09 13:43:58.240; utils.log; Invalid Email and Password entered and login button is clicked
+INFO  - 2023-03-09 13:44:00.267; utils.log; Appopraite Error message displayed  
+INFO  - 2023-03-09 13:44:04.701; utils.log; Not Registered Email and Password is entered and Login Button Clicked 
+INFO  - 2023-03-09 13:44:06.773; utils.log; All error message validated for invalid login  
+INFO  - 2023-03-09 13:44:06.773; utils.log; End TEST-------------------------- InvalidLogin------------------------
+INFO  - 2023-03-09 13:44:06.773; utils.log; END=PASSED

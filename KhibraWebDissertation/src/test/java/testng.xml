@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dissertation">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="NewEmployer.AddEmployerLocation"/>
+      <class name="NewEmployer.AddJobMultiLocations"/>
+      <class name="NewEmployer.AddNewJob"/>
+      <class name="NewEmployer.ChangeEmployerLogo"/>
+      <class name="NewEmployer.ChangeEmployerName"/>
+      <class name="NewEmployer.CloseJob"/>
+      <class name="NewEmployer.DeleteEmployerLocation"/>
+      <class name="NewEmployer.EditEmployerLocation"/>
+      <class name="NewEmployer.EditJob"/>
+      <class name="NewEmployer.EmpSearchClosedJobs"/>
+      <class name="NewEmployer.EmpTalentHomePage"/>
+      <class name="NewEmployer.EmpUpdateSocialMediaProfile"/>
+      <class name="NewEmployer.EmpViewVerifiedStudents"/>
+      <class name="students.StudentAboutPage"/>
+      <class name="students.StudentChangeEmail"/>
+      <class name="students.StudentChangeLanguage"/>
+      <class name="students.StudentChangePassword"/>
+      <class name="students.StudentChangePersonalInfo"/>
+      <class name="students.StudentMyAccount"/>
+      <class name="students.StudentsApplicationsPage"/>
+      <class name="students.StudentsLogout"/>
+      <class name="students.StudentsMyProfile"/>
+      <class name="students.TermsandServicePage"/>
+      <class name="university.AddNewEvent"/>
+      <class name="university.ChangeUniversityLogo"/>
+      <class name="university.ChangeUniversityName"/>
+      <class name="university.EditEvent"/>
+      <class name="university.EventHomepageElements"/>
+      <class name="university.UniSearchStudentByName"/>
+      <class name="university.UniversityAboutPage"/>
+      <class name="university.UniversityExportJobsPDF"/>
+      <class name="university.UniversitySearchJobs"/>
+      <class name="university.UniversiyProfilePAge"/>
+      <class name="university.UniViewStudentProfie"/>
+      <class name="university.UpdateUniAboutUsProfile"/>
+      <class name="university.UpdateUniSocialMediaProfile"/>
+      <class name="UserAccess.InvalidLogin"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+    

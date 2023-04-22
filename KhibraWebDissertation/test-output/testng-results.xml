@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="28" failed="8" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T13:15:04 GMT" name="Dissertation" finished-at="2023-03-09T13:44:07 GMT" duration-ms="1742947">
+    <groups>
+    </groups>
+    <test started-at="2023-03-09T13:15:04 GMT" name="Test" finished-at="2023-03-09T13:44:07 GMT" duration-ms="1742947">
+      <class name="NewEmployer.EmpViewVerifiedStudents">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EmpViewVerifiedStudents@4149c063]" started-at="2023-03-09T13:22:32 GMT" name="setUp1" finished-at="2023-03-09T13:22:46 GMT" duration-ms="14322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEMPViewVerifiedStudents()[pri:0, instance:NewEmployer.EmpViewVerifiedStudents@4149c063]" started-at="2023-03-09T13:22:46 GMT" name="testEMPViewVerifiedStudents" finished-at="2023-03-09T13:23:36 GMT" duration-ms="50045" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//img[contains(@class,'verified-icon')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3274e0de84efc56cd4cd9bf84a3dd8b, findElement {using=xpath, value=(//img[contains(@class,'verified-icon')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:49973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49973/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3274e0de84efc56cd4cd9bf84a3dd8b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"(//img[contains(@class,'verified-icon')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3274e0de84efc56cd4cd9bf84a3dd8b, findElement {using=xpath, value=(//img[contains(@class,'verified-icon')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:49973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49973/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3274e0de84efc56cd4cd9bf84a3dd8b
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at NewEmployer.EmpViewVerifiedStudents.testEMPViewVerifiedStudents(EmpViewVerifiedStudents.java:168)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMPViewVerifiedStudents -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EmpViewVerifiedStudents@4149c063]" started-at="2023-03-09T13:23:36 GMT" name="screenShot" finished-at="2023-03-09T13:23:37 GMT" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEMPViewVerifiedStudents status=FAILURE method=EmpViewVerifiedStudents.testEMPViewVerifiedStudents()[pri:0, instance:NewEmployer.EmpViewVerifiedStudents@4149c063] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EmpViewVerifiedStudents -->
+      <class name="students.StudentChangeEmail">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentChangeEmail@76b07f29]" started-at="2023-03-09T13:23:52 GMT" name="setUp1" finished-at="2023-03-09T13:24:05 GMT" duration-ms="13062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentChangeEmail()[pri:0, instance:students.StudentChangeEmail@76b07f29]" started-at="2023-03-09T13:24:05 GMT" name="testStudentChangeEmail" finished-at="2023-03-09T13:24:17 GMT" duration-ms="12570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentChangeEmail -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentChangeEmail@76b07f29]" started-at="2023-03-09T13:24:17 GMT" name="screenShot" finished-at="2023-03-09T13:24:17 GMT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentChangeEmail status=SUCCESS method=StudentChangeEmail.testStudentChangeEmail()[pri:0, instance:students.StudentChangeEmail@76b07f29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentChangeEmail -->
+      <class name="students.TermsandServicePage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.TermsandServicePage@222a59e6]" started-at="2023-03-09T13:28:17 GMT" name="setUp1" finished-at="2023-03-09T13:35:39 GMT" duration-ms="442289" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4087797e1c59c5615049b063f7204663, findElement {using=xpath, value=//a[@data-toggle='dropdown']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4087797e1c59c5615049b063f7204663]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4087797e1c59c5615049b063f7204663, findElement {using=xpath, value=//a[@data-toggle='dropdown']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4087797e1c59c5615049b063f7204663
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at utils.LoginUtility.Loginutilityclass(LoginUtility.java:243)
+at students.TermsandServicePage.setUp1(TermsandServicePage.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+... 48 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testTermsandServicePage()[pri:0, instance:students.TermsandServicePage@222a59e6]" started-at="2023-03-09T13:35:39 GMT" name="testTermsandServicePage" finished-at="2023-03-09T13:35:39 GMT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4087797e1c59c5615049b063f7204663, findElement {using=xpath, value=//a[@data-toggle='dropdown']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4087797e1c59c5615049b063f7204663]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4087797e1c59c5615049b063f7204663, findElement {using=xpath, value=//a[@data-toggle='dropdown']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50984/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4087797e1c59c5615049b063f7204663
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at utils.LoginUtility.Loginutilityclass(LoginUtility.java:243)
+at students.TermsandServicePage.setUp1(TermsandServicePage.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+... 48 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermsandServicePage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.TermsandServicePage@222a59e6]" started-at="2023-03-09T13:35:39 GMT" name="screenShot" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1678368939967" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.TermsandServicePage -->
+      <class name="students.StudentChangePersonalInfo">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentChangePersonalInfo@62656be4]" started-at="2023-03-09T13:25:06 GMT" name="setUp1" finished-at="2023-03-09T13:25:19 GMT" duration-ms="13124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentChangePersonalInfo()[pri:0, instance:students.StudentChangePersonalInfo@62656be4]" started-at="2023-03-09T13:25:19 GMT" name="testStudentChangePersonalInfo" finished-at="2023-03-09T13:25:24 GMT" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentChangePersonalInfo -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentChangePersonalInfo@62656be4]" started-at="2023-03-09T13:25:24 GMT" name="screenShot" finished-at="2023-03-09T13:25:24 GMT" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentChangePersonalInfo status=SUCCESS method=StudentChangePersonalInfo.testStudentChangePersonalInfo()[pri:0, instance:students.StudentChangePersonalInfo@62656be4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentChangePersonalInfo -->
+      <class name="NewEmployer.EditEmployerLocation">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EditEmployerLocation@18317edc]" started-at="2023-03-09T13:20:15 GMT" name="setUp1" finished-at="2023-03-09T13:20:30 GMT" duration-ms="14345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testAddEmployerLocation()[pri:0, instance:NewEmployer.EditEmployerLocation@18317edc]" started-at="2023-03-09T13:20:30 GMT" name="testAddEmployerLocation" finished-at="2023-03-09T13:20:39 GMT" duration-ms="9233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployerLocation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EditEmployerLocation@18317edc]" started-at="2023-03-09T13:20:39 GMT" name="screenShot" finished-at="2023-03-09T13:20:39 GMT" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddEmployerLocation status=SUCCESS method=EditEmployerLocation.testAddEmployerLocation()[pri:0, instance:NewEmployer.EditEmployerLocation@18317edc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EditEmployerLocation -->
+      <class name="NewEmployer.DeleteEmployerLocation">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.DeleteEmployerLocation@54e041a4]" started-at="2023-03-09T13:19:45 GMT" name="setUp1" finished-at="2023-03-09T13:19:59 GMT" duration-ms="14175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testDeleteEmployerLocation()[pri:0, instance:NewEmployer.DeleteEmployerLocation@54e041a4]" started-at="2023-03-09T13:19:59 GMT" name="testDeleteEmployerLocation" finished-at="2023-03-09T13:20:15 GMT" duration-ms="15931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteEmployerLocation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.DeleteEmployerLocation@54e041a4]" started-at="2023-03-09T13:20:15 GMT" name="screenShot" finished-at="2023-03-09T13:20:15 GMT" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteEmployerLocation status=SUCCESS method=DeleteEmployerLocation.testDeleteEmployerLocation()[pri:0, instance:NewEmployer.DeleteEmployerLocation@54e041a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.DeleteEmployerLocation -->
+      <class name="NewEmployer.AddNewJob">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.AddNewJob@7fd7a283]" started-at="2023-03-09T13:16:29 GMT" name="setUp1" finished-at="2023-03-09T13:16:44 GMT" duration-ms="14533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testAddNewJob()[pri:0, instance:NewEmployer.AddNewJob@7fd7a283]" started-at="2023-03-09T13:16:44 GMT" name="testAddNewJob" description="AddNewJob. TC_ID=C1157" finished-at="2023-03-09T13:17:39 GMT" duration-ms="55039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewJob -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.AddNewJob@7fd7a283]" started-at="2023-03-09T13:17:39 GMT" name="screenShot" finished-at="2023-03-09T13:17:39 GMT" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewJob status=SUCCESS method=AddNewJob.testAddNewJob()[pri:0, instance:NewEmployer.AddNewJob@7fd7a283] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.AddNewJob -->
+      <class name="university.ChangeUniversityName">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.ChangeUniversityName@3e62d773]" started-at="2023-03-09T13:37:27 GMT" name="setUp1" finished-at="2023-03-09T13:37:42 GMT" duration-ms="15262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testChangeUniversityName()[pri:0, instance:university.ChangeUniversityName@3e62d773]" started-at="2023-03-09T13:37:42 GMT" name="testChangeUniversityName" finished-at="2023-03-09T13:37:52 GMT" duration-ms="9643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeUniversityName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.ChangeUniversityName@3e62d773]" started-at="2023-03-09T13:37:52 GMT" name="screenShot" finished-at="2023-03-09T13:37:52 GMT" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeUniversityName status=SUCCESS method=ChangeUniversityName.testChangeUniversityName()[pri:0, instance:university.ChangeUniversityName@3e62d773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.ChangeUniversityName -->
+      <class name="students.StudentAboutPage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentAboutPage@9cb8225]" started-at="2023-03-09T13:23:37 GMT" name="setUp1" finished-at="2023-03-09T13:23:50 GMT" duration-ms="13107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentAboutPage()[pri:0, instance:students.StudentAboutPage@9cb8225]" started-at="2023-03-09T13:23:50 GMT" name="testStudentAboutPage" finished-at="2023-03-09T13:23:51 GMT" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentAboutPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentAboutPage@9cb8225]" started-at="2023-03-09T13:23:51 GMT" name="screenShot" finished-at="2023-03-09T13:23:52 GMT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentAboutPage status=SUCCESS method=StudentAboutPage.testStudentAboutPage()[pri:0, instance:students.StudentAboutPage@9cb8225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentAboutPage -->
+      <class name="university.UniversityAboutPage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniversityAboutPage@4bff7da0]" started-at="2023-03-09T13:39:12 GMT" name="setUp1" finished-at="2023-03-09T13:39:27 GMT" duration-ms="15040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniversityAboutPage()[pri:0, instance:university.UniversityAboutPage@4bff7da0]" started-at="2023-03-09T13:39:27 GMT" name="testUniversityAboutPage" finished-at="2023-03-09T13:39:29 GMT" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniversityAboutPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniversityAboutPage@4bff7da0]" started-at="2023-03-09T13:39:29 GMT" name="screenShot" finished-at="2023-03-09T13:39:29 GMT" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniversityAboutPage status=SUCCESS method=UniversityAboutPage.testUniversityAboutPage()[pri:0, instance:university.UniversityAboutPage@4bff7da0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniversityAboutPage -->
+      <class name="students.StudentsLogout">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentsLogout@34129c78]" started-at="2023-03-09T13:26:40 GMT" name="setUp1" finished-at="2023-03-09T13:27:17 GMT" duration-ms="37610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testLoginElements()[pri:0, instance:students.StudentsLogout@34129c78]" started-at="2023-03-09T13:27:17 GMT" name="testLoginElements" finished-at="2023-03-09T13:27:22 GMT" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginElements -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentsLogout@34129c78]" started-at="2023-03-09T13:27:22 GMT" name="screenShot" finished-at="2023-03-09T13:27:22 GMT" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginElements status=SUCCESS method=StudentsLogout.testLoginElements()[pri:0, instance:students.StudentsLogout@34129c78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentsLogout -->
+      <class name="university.AddNewEvent">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.AddNewEvent@6c7a164b]" started-at="2023-03-09T13:35:39 GMT" name="setUp1" finished-at="2023-03-09T13:35:56 GMT" duration-ms="16360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testAddNewEvent()[pri:0, instance:university.AddNewEvent@6c7a164b]" started-at="2023-03-09T13:35:56 GMT" name="testAddNewEvent" finished-at="2023-03-09T13:36:23 GMT" duration-ms="27386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEvent -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.AddNewEvent@6c7a164b]" started-at="2023-03-09T13:36:23 GMT" name="screenShot" finished-at="2023-03-09T13:36:23 GMT" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewEvent status=SUCCESS method=AddNewEvent.testAddNewEvent()[pri:0, instance:university.AddNewEvent@6c7a164b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.AddNewEvent -->
+      <class name="NewEmployer.EmpTalentHomePage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EmpTalentHomePage@4b86805d]" started-at="2023-03-09T13:21:40 GMT" name="setUp1" finished-at="2023-03-09T13:21:54 GMT" duration-ms="14183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEmpTalentHomePage()[pri:0, instance:NewEmployer.EmpTalentHomePage@4b86805d]" started-at="2023-03-09T13:21:54 GMT" name="testEmpTalentHomePage" finished-at="2023-03-09T13:22:00 GMT" duration-ms="5674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmpTalentHomePage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EmpTalentHomePage@4b86805d]" started-at="2023-03-09T13:22:00 GMT" name="screenShot" finished-at="2023-03-09T13:22:00 GMT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmpTalentHomePage status=SUCCESS method=EmpTalentHomePage.testEmpTalentHomePage()[pri:0, instance:NewEmployer.EmpTalentHomePage@4b86805d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EmpTalentHomePage -->
+      <class name="NewEmployer.EmpUpdateSocialMediaProfile">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EmpUpdateSocialMediaProfile@5852c06f]" started-at="2023-03-09T13:22:00 GMT" name="setUp1" finished-at="2023-03-09T13:22:14 GMT" duration-ms="13875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEmpUpdateSocialMediaProfile()[pri:0, instance:NewEmployer.EmpUpdateSocialMediaProfile@5852c06f]" started-at="2023-03-09T13:22:14 GMT" name="testEmpUpdateSocialMediaProfile" finished-at="2023-03-09T13:22:32 GMT" duration-ms="17589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmpUpdateSocialMediaProfile -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EmpUpdateSocialMediaProfile@5852c06f]" started-at="2023-03-09T13:22:32 GMT" name="screenShot" finished-at="2023-03-09T13:22:32 GMT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmpUpdateSocialMediaProfile status=SUCCESS method=EmpUpdateSocialMediaProfile.testEmpUpdateSocialMediaProfile()[pri:0, instance:NewEmployer.EmpUpdateSocialMediaProfile@5852c06f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EmpUpdateSocialMediaProfile -->
+      <class name="NewEmployer.EditJob">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EditJob@4e0ae11f]" started-at="2023-03-09T13:20:39 GMT" name="setUp1" finished-at="2023-03-09T13:20:54 GMT" duration-ms="14364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEditJob()[pri:0, instance:NewEmployer.EditJob@4e0ae11f]" started-at="2023-03-09T13:20:54 GMT" name="testEditJob" finished-at="2023-03-09T13:21:12 GMT" duration-ms="18481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditJob -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EditJob@4e0ae11f]" started-at="2023-03-09T13:21:12 GMT" name="screenShot" finished-at="2023-03-09T13:21:13 GMT" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditJob status=SUCCESS method=EditJob.testEditJob()[pri:0, instance:NewEmployer.EditJob@4e0ae11f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EditJob -->
+      <class name="university.EventHomepageElements">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.EventHomepageElements@7283d3eb]" started-at="2023-03-09T13:38:22 GMT" name="setUp1" finished-at="2023-03-09T13:38:37 GMT" duration-ms="14990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEventHomepageElements()[pri:0, instance:university.EventHomepageElements@7283d3eb]" started-at="2023-03-09T13:38:37 GMT" name="testEventHomepageElements" finished-at="2023-03-09T13:38:46 GMT" duration-ms="9132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEventHomepageElements -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.EventHomepageElements@7283d3eb]" started-at="2023-03-09T13:38:46 GMT" name="screenShot" finished-at="2023-03-09T13:38:47 GMT" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEventHomepageElements status=SUCCESS method=EventHomepageElements.testEventHomepageElements()[pri:0, instance:university.EventHomepageElements@7283d3eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.EventHomepageElements -->
+      <class name="university.UniViewStudentProfie">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniViewStudentProfie@776a6d9b]" started-at="2023-03-09T13:40:39 GMT" name="setUp1" finished-at="2023-03-09T13:40:55 GMT" duration-ms="15361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniViewStudentProfie()[pri:0, instance:university.UniViewStudentProfie@776a6d9b]" started-at="2023-03-09T13:40:55 GMT" name="testUniViewStudentProfie" finished-at="2023-03-09T13:41:45 GMT" duration-ms="50105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='uni-profile-name']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2944dfbb81b4b69e2e74677f0772c3, findElement {using=xpath, value=//div[@class='uni-profile-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52452/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2944dfbb81b4b69e2e74677f0772c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='uni-profile-name']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2944dfbb81b4b69e2e74677f0772c3, findElement {using=xpath, value=//div[@class='uni-profile-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52452/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2944dfbb81b4b69e2e74677f0772c3
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at university.UniViewStudentProfie.testUniViewStudentProfie(UniViewStudentProfie.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniViewStudentProfie -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniViewStudentProfie@776a6d9b]" started-at="2023-03-09T13:41:45 GMT" name="screenShot" finished-at="2023-03-09T13:41:46 GMT" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniViewStudentProfie status=FAILURE method=UniViewStudentProfie.testUniViewStudentProfie()[pri:0, instance:university.UniViewStudentProfie@776a6d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniViewStudentProfie -->
+      <class name="NewEmployer.AddJobMultiLocations">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.AddJobMultiLocations@7ac296f6]" started-at="2023-03-09T13:15:43 GMT" name="setUp1" finished-at="2023-03-09T13:15:57 GMT" duration-ms="14498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testAddNewJob()[pri:0, instance:NewEmployer.AddJobMultiLocations@7ac296f6]" started-at="2023-03-09T13:15:57 GMT" name="testAddNewJob" description="StudentsDashboard. TC_ID=C1155" finished-at="2023-03-09T13:16:29 GMT" duration-ms="32167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewJob -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.AddJobMultiLocations@7ac296f6]" started-at="2023-03-09T13:16:29 GMT" name="screenShot" finished-at="2023-03-09T13:16:29 GMT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddNewJob status=SUCCESS method=AddJobMultiLocations.testAddNewJob()[pri:0, instance:NewEmployer.AddJobMultiLocations@7ac296f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.AddJobMultiLocations -->
+      <class name="NewEmployer.ChangeEmployerName">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.ChangeEmployerName@78fa769e]" started-at="2023-03-09T13:18:40 GMT" name="setUp1" finished-at="2023-03-09T13:18:54 GMT" duration-ms="14122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testChangeEmployerName()[pri:0, instance:NewEmployer.ChangeEmployerName@78fa769e]" started-at="2023-03-09T13:18:54 GMT" name="testChangeEmployerName" finished-at="2023-03-09T13:19:02 GMT" duration-ms="8295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeEmployerName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.ChangeEmployerName@78fa769e]" started-at="2023-03-09T13:19:02 GMT" name="screenShot" finished-at="2023-03-09T13:19:03 GMT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeEmployerName status=SUCCESS method=ChangeEmployerName.testChangeEmployerName()[pri:0, instance:NewEmployer.ChangeEmployerName@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.ChangeEmployerName -->
+      <class name="university.UniversityExportJobsPDF">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniversityExportJobsPDF@3f1d2e23]" started-at="2023-03-09T13:39:29 GMT" name="setUp1" finished-at="2023-03-09T13:39:44 GMT" duration-ms="15026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniversityExportJobsPDF()[pri:0, instance:university.UniversityExportJobsPDF@3f1d2e23]" started-at="2023-03-09T13:39:44 GMT" name="testUniversityExportJobsPDF" finished-at="2023-03-09T13:39:52 GMT" duration-ms="8069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniversityExportJobsPDF -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniversityExportJobsPDF@3f1d2e23]" started-at="2023-03-09T13:39:52 GMT" name="screenShot" finished-at="2023-03-09T13:39:52 GMT" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniversityExportJobsPDF status=SUCCESS method=UniversityExportJobsPDF.testUniversityExportJobsPDF()[pri:0, instance:university.UniversityExportJobsPDF@3f1d2e23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniversityExportJobsPDF -->
+      <class name="university.UniSearchStudentByName">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniSearchStudentByName@638ef7ed]" started-at="2023-03-09T13:38:47 GMT" name="setUp1" finished-at="2023-03-09T13:39:02 GMT" duration-ms="15000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniSearchStudentByName()[pri:0, instance:university.UniSearchStudentByName@638ef7ed]" started-at="2023-03-09T13:39:02 GMT" name="testUniSearchStudentByName" finished-at="2023-03-09T13:39:12 GMT" duration-ms="10356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniSearchStudentByName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniSearchStudentByName@638ef7ed]" started-at="2023-03-09T13:39:12 GMT" name="screenShot" finished-at="2023-03-09T13:39:12 GMT" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniSearchStudentByName status=SUCCESS method=UniSearchStudentByName.testUniSearchStudentByName()[pri:0, instance:university.UniSearchStudentByName@638ef7ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniSearchStudentByName -->
+      <class name="students.StudentsMyProfile">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentsMyProfile@7d61eb55]" started-at="2023-03-09T13:27:22 GMT" name="setUp1" finished-at="2023-03-09T13:27:36 GMT" duration-ms="13246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testLoginElements()[pri:0, instance:students.StudentsMyProfile@7d61eb55]" started-at="2023-03-09T13:27:36 GMT" name="testLoginElements" finished-at="2023-03-09T13:28:17 GMT" duration-ms="40863" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='My CV']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51ec0d0f29912b69b2b30d167ecc749f, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='My CV']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50833/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ec0d0f29912b69b2b30d167ecc749f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='My CV']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51ec0d0f29912b69b2b30d167ecc749f, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='My CV']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50833/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ec0d0f29912b69b2b30d167ecc749f
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at students.StudentsMyProfile.testLoginElements(StudentsMyProfile.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginElements -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentsMyProfile@7d61eb55]" started-at="2023-03-09T13:28:17 GMT" name="screenShot" finished-at="2023-03-09T13:28:17 GMT" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginElements status=FAILURE method=StudentsMyProfile.testLoginElements()[pri:0, instance:students.StudentsMyProfile@7d61eb55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentsMyProfile -->
+      <class name="university.UpdateUniSocialMediaProfile">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UpdateUniSocialMediaProfile@1f760b47]" started-at="2023-03-09T13:42:46 GMT" name="setUp1" finished-at="2023-03-09T13:43:02 GMT" duration-ms="15266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUpdateUniSocialMediaProfile()[pri:0, instance:university.UpdateUniSocialMediaProfile@1f760b47]" started-at="2023-03-09T13:43:02 GMT" name="testUpdateUniSocialMediaProfile" finished-at="2023-03-09T13:43:45 GMT" duration-ms="42984" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='University profile']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbd634413fe75bc2330237a15427c403, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='University profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd634413fe75bc2330237a15427c403]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='University profile']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbd634413fe75bc2330237a15427c403, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='University profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd634413fe75bc2330237a15427c403
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at university.UpdateUniSocialMediaProfile.testUpdateUniSocialMediaProfile(UpdateUniSocialMediaProfile.java:231)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUniSocialMediaProfile -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UpdateUniSocialMediaProfile@1f760b47]" started-at="2023-03-09T13:43:45 GMT" name="screenShot" finished-at="2023-03-09T13:43:45 GMT" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateUniSocialMediaProfile status=FAILURE method=UpdateUniSocialMediaProfile.testUpdateUniSocialMediaProfile()[pri:0, instance:university.UpdateUniSocialMediaProfile@1f760b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UpdateUniSocialMediaProfile -->
+      <class name="university.ChangeUniversityLogo">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.ChangeUniversityLogo@4c2bb6e0]" started-at="2023-03-09T13:36:23 GMT" name="setUp1" finished-at="2023-03-09T13:36:39 GMT" duration-ms="15011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testChangeUniversityLogo()[pri:0, instance:university.ChangeUniversityLogo@4c2bb6e0]" started-at="2023-03-09T13:36:39 GMT" name="testChangeUniversityLogo" finished-at="2023-03-09T13:37:26 GMT" duration-ms="47239" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(.,'Logo successfully uploaded')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7eb511bfa1a7659bf73b90dfefb610, findElement {using=xpath, value=(//div[contains(.,'Logo successfully uploaded')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:51690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51690/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7eb511bfa1a7659bf73b90dfefb610]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(.,'Logo successfully uploaded')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7eb511bfa1a7659bf73b90dfefb610, findElement {using=xpath, value=(//div[contains(.,'Logo successfully uploaded')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:51690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51690/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7eb511bfa1a7659bf73b90dfefb610
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at university.ChangeUniversityLogo.testChangeUniversityLogo(ChangeUniversityLogo.java:179)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeUniversityLogo -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.ChangeUniversityLogo@4c2bb6e0]" started-at="2023-03-09T13:37:26 GMT" name="screenShot" finished-at="2023-03-09T13:37:27 GMT" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeUniversityLogo status=FAILURE method=ChangeUniversityLogo.testChangeUniversityLogo()[pri:0, instance:university.ChangeUniversityLogo@4c2bb6e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.ChangeUniversityLogo -->
+      <class name="students.StudentsApplicationsPage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentsApplicationsPage@53f3bdbd]" started-at="2023-03-09T13:25:43 GMT" name="setUp1" finished-at="2023-03-09T13:25:56 GMT" duration-ms="12952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentsApplicationsPage()[pri:0, instance:students.StudentsApplicationsPage@53f3bdbd]" started-at="2023-03-09T13:25:56 GMT" name="testStudentsApplicationsPage" finished-at="2023-03-09T13:26:39 GMT" duration-ms="43026" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Current applications')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f75e9c1063c17046b849e433c8e79fb, findElement {using=xpath, value=//span[contains(.,'Current applications')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f75e9c1063c17046b849e433c8e79fb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Current applications')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f75e9c1063c17046b849e433c8e79fb, findElement {using=xpath, value=//span[contains(.,'Current applications')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f75e9c1063c17046b849e433c8e79fb
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at students.StudentsApplicationsPage.testStudentsApplicationsPage(StudentsApplicationsPage.java:147)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentsApplicationsPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentsApplicationsPage@53f3bdbd]" started-at="2023-03-09T13:26:39 GMT" name="screenShot" finished-at="2023-03-09T13:26:40 GMT" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentsApplicationsPage status=FAILURE method=StudentsApplicationsPage.testStudentsApplicationsPage()[pri:0, instance:students.StudentsApplicationsPage@53f3bdbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentsApplicationsPage -->
+      <class name="NewEmployer.AddEmployerLocation">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.AddEmployerLocation@642a7222]" started-at="2023-03-09T13:15:04 GMT" name="setUp1" finished-at="2023-03-09T13:15:23 GMT" duration-ms="18136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testAddEmployerLocation()[pri:0, instance:NewEmployer.AddEmployerLocation@642a7222]" started-at="2023-03-09T13:15:23 GMT" name="testAddEmployerLocation" finished-at="2023-03-09T13:15:42 GMT" duration-ms="19708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployerLocation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.AddEmployerLocation@642a7222]" started-at="2023-03-09T13:15:42 GMT" name="screenShot" finished-at="2023-03-09T13:15:43 GMT" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddEmployerLocation status=SUCCESS method=AddEmployerLocation.testAddEmployerLocation()[pri:0, instance:NewEmployer.AddEmployerLocation@642a7222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.AddEmployerLocation -->
+      <class name="university.UniversiyProfilePAge">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniversiyProfilePAge@47c81abf]" started-at="2023-03-09T13:40:19 GMT" name="setUp1" finished-at="2023-03-09T13:40:34 GMT" duration-ms="15037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniversiyProfilePAge()[pri:0, instance:university.UniversiyProfilePAge@47c81abf]" started-at="2023-03-09T13:40:34 GMT" name="testUniversiyProfilePAge" finished-at="2023-03-09T13:40:39 GMT" duration-ms="4937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniversiyProfilePAge -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniversiyProfilePAge@47c81abf]" started-at="2023-03-09T13:40:39 GMT" name="screenShot" finished-at="2023-03-09T13:40:39 GMT" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniversiyProfilePAge status=SUCCESS method=UniversiyProfilePAge.testUniversiyProfilePAge()[pri:0, instance:university.UniversiyProfilePAge@47c81abf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniversiyProfilePAge -->
+      <class name="NewEmployer.ChangeEmployerLogo">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.ChangeEmployerLogo@22f59fa]" started-at="2023-03-09T13:17:39 GMT" name="setUp1" finished-at="2023-03-09T13:17:54 GMT" duration-ms="14169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testChangeEmployerLogo()[pri:0, instance:NewEmployer.ChangeEmployerLogo@22f59fa]" started-at="2023-03-09T13:17:54 GMT" name="testChangeEmployerLogo" finished-at="2023-03-09T13:18:39 GMT" duration-ms="45815" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(.,'Logo successfully uploaded')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4832e1abc5f908177804d485da3cbe8c, findElement {using=xpath, value=(//div[contains(.,'Logo successfully uploaded')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:65418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65418/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4832e1abc5f908177804d485da3cbe8c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(.,'Logo successfully uploaded')])"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4832e1abc5f908177804d485da3cbe8c, findElement {using=xpath, value=(//div[contains(.,'Logo successfully uploaded')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:65418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65418/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4832e1abc5f908177804d485da3cbe8c
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at NewEmployer.ChangeEmployerLogo.testChangeEmployerLogo(ChangeEmployerLogo.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeEmployerLogo -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.ChangeEmployerLogo@22f59fa]" started-at="2023-03-09T13:18:39 GMT" name="screenShot" finished-at="2023-03-09T13:18:40 GMT" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeEmployerLogo status=FAILURE method=ChangeEmployerLogo.testChangeEmployerLogo()[pri:0, instance:NewEmployer.ChangeEmployerLogo@22f59fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.ChangeEmployerLogo -->
+      <class name="NewEmployer.CloseJob">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.CloseJob@16612a51]" started-at="2023-03-09T13:19:03 GMT" name="setUp1" finished-at="2023-03-09T13:19:17 GMT" duration-ms="14125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testCloseJob()[pri:0, instance:NewEmployer.CloseJob@16612a51]" started-at="2023-03-09T13:19:17 GMT" name="testCloseJob" finished-at="2023-03-09T13:19:45 GMT" duration-ms="28013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseJob -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.CloseJob@16612a51]" started-at="2023-03-09T13:19:45 GMT" name="screenShot" finished-at="2023-03-09T13:19:45 GMT" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCloseJob status=SUCCESS method=CloseJob.testCloseJob()[pri:0, instance:NewEmployer.CloseJob@16612a51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.CloseJob -->
+      <class name="university.UniversitySearchJobs">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UniversitySearchJobs@536dbea0]" started-at="2023-03-09T13:39:52 GMT" name="setUp1" finished-at="2023-03-09T13:40:08 GMT" duration-ms="15338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUniversitySearchJobs()[pri:0, instance:university.UniversitySearchJobs@536dbea0]" started-at="2023-03-09T13:40:08 GMT" name="testUniversitySearchJobs" finished-at="2023-03-09T13:40:19 GMT" duration-ms="11165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUniversitySearchJobs -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniversitySearchJobs@536dbea0]" started-at="2023-03-09T13:40:19 GMT" name="screenShot" finished-at="2023-03-09T13:40:19 GMT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUniversitySearchJobs status=SUCCESS method=UniversitySearchJobs.testUniversitySearchJobs()[pri:0, instance:university.UniversitySearchJobs@536dbea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UniversitySearchJobs -->
+      <class name="NewEmployer.EmpSearchClosedJobs">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:NewEmployer.EmpSearchClosedJobs@238d68ff]" started-at="2023-03-09T13:21:13 GMT" name="setUp1" finished-at="2023-03-09T13:21:27 GMT" duration-ms="13979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEmpSearchClosedJobs()[pri:0, instance:NewEmployer.EmpSearchClosedJobs@238d68ff]" started-at="2023-03-09T13:21:27 GMT" name="testEmpSearchClosedJobs" finished-at="2023-03-09T13:21:40 GMT" duration-ms="13236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmpSearchClosedJobs -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:NewEmployer.EmpSearchClosedJobs@238d68ff]" started-at="2023-03-09T13:21:40 GMT" name="screenShot" finished-at="2023-03-09T13:21:40 GMT" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmpSearchClosedJobs status=SUCCESS method=EmpSearchClosedJobs.testEmpSearchClosedJobs()[pri:0, instance:NewEmployer.EmpSearchClosedJobs@238d68ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- NewEmployer.EmpSearchClosedJobs -->
+      <class name="university.UpdateUniAboutUsProfile">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.UpdateUniAboutUsProfile@21d03963]" started-at="2023-03-09T13:41:46 GMT" name="setUp1" finished-at="2023-03-09T13:42:01 GMT" duration-ms="15142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testUpdateUniAboutUsProfile()[pri:0, instance:university.UpdateUniAboutUsProfile@21d03963]" started-at="2023-03-09T13:42:01 GMT" name="testUpdateUniAboutUsProfile" finished-at="2023-03-09T13:42:46 GMT" duration-ms="45088" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='University profile']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a1d3086319e261534769d1182d02cfd, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='University profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52592/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a1d3086319e261534769d1182d02cfd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-item']//a[normalize-space()='University profile']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'pc-194-210.customer.ask4.lan', ip: 'fe80:0:0:0:49e:3e99:7567:7205%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a1d3086319e261534769d1182d02cfd, findElement {using=xpath, value=//div[@class='dropdown-item']//a[normalize-space()='University profile']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/4v/pkwj_l0x11v...}, goog:chromeOptions: {debuggerAddress: localhost:52592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52592/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a1d3086319e261534769d1182d02cfd
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at university.UpdateUniAboutUsProfile.testUpdateUniAboutUsProfile(UpdateUniAboutUsProfile.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUniAboutUsProfile -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UpdateUniAboutUsProfile@21d03963]" started-at="2023-03-09T13:42:46 GMT" name="screenShot" finished-at="2023-03-09T13:42:46 GMT" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateUniAboutUsProfile status=FAILURE method=UpdateUniAboutUsProfile.testUpdateUniAboutUsProfile()[pri:0, instance:university.UpdateUniAboutUsProfile@21d03963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.UpdateUniAboutUsProfile -->
+      <class name="university.EditEvent">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:university.EditEvent@4ef74c30]" started-at="2023-03-09T13:37:52 GMT" name="setUp1" finished-at="2023-03-09T13:38:07 GMT" duration-ms="15130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testEditEvent()[pri:0, instance:university.EditEvent@4ef74c30]" started-at="2023-03-09T13:38:07 GMT" name="testEditEvent" finished-at="2023-03-09T13:38:22 GMT" duration-ms="15035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditEvent -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.EditEvent@4ef74c30]" started-at="2023-03-09T13:38:22 GMT" name="screenShot" finished-at="2023-03-09T13:38:22 GMT" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEditEvent status=SUCCESS method=EditEvent.testEditEvent()[pri:0, instance:university.EditEvent@4ef74c30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- university.EditEvent -->
+      <class name="students.StudentMyAccount">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentMyAccount@17d919b6]" started-at="2023-03-09T13:25:24 GMT" name="setUp1" finished-at="2023-03-09T13:25:37 GMT" duration-ms="12982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentMyAccount()[pri:0, instance:students.StudentMyAccount@17d919b6]" started-at="2023-03-09T13:25:37 GMT" name="testStudentMyAccount" finished-at="2023-03-09T13:25:43 GMT" duration-ms="5988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentMyAccount -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentMyAccount@17d919b6]" started-at="2023-03-09T13:25:43 GMT" name="screenShot" finished-at="2023-03-09T13:25:43 GMT" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentMyAccount status=SUCCESS method=StudentMyAccount.testStudentMyAccount()[pri:0, instance:students.StudentMyAccount@17d919b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentMyAccount -->
+      <class name="UserAccess.InvalidLogin">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:UserAccess.InvalidLogin@18ece7f4]" started-at="2023-03-09T13:43:45 GMT" name="setUp1" finished-at="2023-03-09T13:43:49 GMT" duration-ms="3809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:UserAccess.InvalidLogin@18ece7f4]" started-at="2023-03-09T13:43:49 GMT" name="testInvalidLogin" finished-at="2023-03-09T13:44:07 GMT" duration-ms="17845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:UserAccess.InvalidLogin@18ece7f4]" started-at="2023-03-09T13:44:07 GMT" name="screenShot" finished-at="2023-03-09T13:44:07 GMT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLogin.testInvalidLogin()[pri:0, instance:UserAccess.InvalidLogin@18ece7f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- UserAccess.InvalidLogin -->
+      <class name="students.StudentChangeLanguage">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentChangeLanguage@38af9828]" started-at="2023-03-09T13:24:17 GMT" name="setUp1" finished-at="2023-03-09T13:24:30 GMT" duration-ms="13059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentChangeLanguage()[pri:0, instance:students.StudentChangeLanguage@38af9828]" started-at="2023-03-09T13:24:30 GMT" name="testStudentChangeLanguage" finished-at="2023-03-09T13:24:36 GMT" duration-ms="5579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentChangeLanguage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentChangeLanguage@38af9828]" started-at="2023-03-09T13:24:36 GMT" name="screenShot" finished-at="2023-03-09T13:24:36 GMT" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentChangeLanguage status=SUCCESS method=StudentChangeLanguage.testStudentChangeLanguage()[pri:0, instance:students.StudentChangeLanguage@38af9828] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentChangeLanguage -->
+      <class name="students.StudentChangePassword">
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:students.StudentChangePassword@376a0d86]" started-at="2023-03-09T13:24:36 GMT" name="setUp1" finished-at="2023-03-09T13:24:49 GMT" duration-ms="13007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="testStudentChangePassword()[pri:0, instance:students.StudentChangePassword@376a0d86]" started-at="2023-03-09T13:24:49 GMT" name="testStudentChangePassword" finished-at="2023-03-09T13:25:06 GMT" duration-ms="16668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentChangePassword -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.StudentChangePassword@376a0d86]" started-at="2023-03-09T13:25:06 GMT" name="screenShot" finished-at="2023-03-09T13:25:06 GMT" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentChangePassword status=SUCCESS method=StudentChangePassword.testStudentChangePassword()[pri:0, instance:students.StudentChangePassword@376a0d86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- students.StudentChangePassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Dissertation -->
+</testng-results>

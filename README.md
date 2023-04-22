@@ -1,4 +1,4 @@
-# Disseration
+# Dissertation
 Installation Steps 
 1. Download/Extract the project folder ffroom Gitup to the system or Clone the Repository
 2. Open the Project on any IDE - Eclipse 
